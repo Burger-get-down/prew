@@ -9,132 +9,382 @@
 </head>
 <body>
     <header>
-        <div class="container">
-        <div class="menu">
+      <div class="container-het">
+        <nav class= "header-menu">
+            
+            <button id="themeToggle" class="dark-mode-btn">
+                <img class="dark-mode-btn-icon" src="./img/sun.svg" alt="Light mode" width="22px">
+                <img class="dark-mode-btn-icon" src="./img/moon.svg" alt="Light mode" width="22px">
+                    
+            </button>
+            <div class="menu-toggle" id="mobile-menu">
+
+
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>  
+
+            <ul class= "header-menu-list">
+            
+                    <a class = "header-menu-l" href="#catalog">Каталог</a>
+                
+                
+                    <a class = "header-menu-l" href="/">О нас</a>
+                
+              
+                    <a class = "header-menu-l" href="#foot">Контакты</a>
+              
+                
+                    <a class = "header-menu-l" href="/">Доставка</a>
+                    <a class = "header-menu-l" href="#opt">Купить оптом</a>
+              
+                
+            </ul>
+        </nav>
+        <!-- <div class="menu">
             <ul>
                 <li><a href="#furniture">Каталог продукции</a></li>
                 <li><a href="#skaz">О нас</a></li>
                 <li><a href="#foot">Контакты</a></li>
             </ul>
-        </div>
-        <img src="./img/Group.png" alt="" class="logo" id="logo">
+        </div> -->
         <div class="navigation">
             <ul>
             <li>Звоните: +7 920 050 05 10</li>
             <li>Пишите: infogbii@yandex.ru</li>
             </ul>
+            <div class="icon-navigation">
+            <a href=""><img src="./img/tg.svg" alt="" width="40px"></a>
+            <a href="https://wa.me/qr/EVBKEQ7R4GWJH1"><img src="./img/whats.svg" alt="" width="40px"></a>
+            </div>
             <p>пн-пт: 9:00-18:00</p>
         </div>
-    </div>
+      </div>
+      <div class="logoi">
+        <img src="./img/Group.png" alt="" class="logo" id="logo">
+      </div>
     <div class="sours">
         <ul>
             <li><a href="https://www.ozon.ru/seller/gbii-655510/products/?miniapp=seller_655510&__rr=2&abt_att=1">Купить на ozon</a></li>
             <li><a href="#opt">Купить оптом</a></li>
-            <li>Доставка</li>
+            <li><a href="">Доставка</a></li>
         </ul>
     </div>
-    <hr width="800px">
+    <hr width="640px" class="hr">
     </header>
-    <main>
-        <div class="main-wrapper">
-            <h2 class="furniture" id="furniture">Производство пластиковой фурнитуры и комплектующих</h2>
-            <div class="tovar">
-            <div class="listProduct">
-                <div class="item">
-                    <img src="./img/corp3.png" width="400px">
-                    <h2>Крепление для мебельных ножек с наклоном</h2>
-                    <p>Держатель ножки табурета. Угол наклона 10 градусов. Гайка м8 оцинкованная.</p>
-                    <div class="price">$50</div>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-            <div class="listProduct">
-                <div class="item">
-                    <img src="./img/corp4.jpg" width="400px">
-                    <h2>Крепление для мебельных ножек без наклона</h2>
-                    <p>Крепление для мебельных ножек, резьба м8, под прямым углом.</p>
-                    <div class="price">$50</div>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-            <div class="listProduct">
-                <div class="item">
-                    <img src="./img/corp5.png" width="400px">
-                    <h2>Термошайба для поликарбоната, уплотнительное кольцо</h2>
-                    <p>Для теплиц, Для навесов, Для заборов и ограждений, Для кровли, Для балконов</p>
-                    <div class="price">$50</div>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-            <div class="listProduct">
-                <div class="item">
-                    <img src="./img/corp2.webp" width="400px">
-                    <h2>Крепление для мебельных ножек, м8, под прямым углом, белый</h2>
-                    <div class="price">$50</div>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-            <div class="listProduct">
-                <div class="item">
-                    <img src="./img/corp1.webp" width="400px">
-                    <h2>Product Name</h2>
-                    <div class="price">$50</div>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-            <div class="listProduct">
-                <div class="item">
-                    <img src="./img/corp1.webp" width="400px">
-                    <h2>Product Name</h2>
-                    <div class="price">$50</div>
-                    <button>Add to cart</button>
-                </div>
-            </div>
+    <section class="container">     
+        <h1 class="catalog" id="catalog">Каталог</h1>
+        <div class="card_container">
+            <article>
+                <div class="card_product">
+                    <img src="./img/corp1.webp" alt="" class="card_img" width="500px">
 
-            </div>
-        </div>
-    </main>
-    <section>
+                    <div>
+                         <h3 class="card_name">Крепление для мебельных ножек без наклона</h3>
+                         <span class="card_price">250</span>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal_card">
+                        <img src="./img/close-large-fill.svg" alt="" class="modal_close">
+
+                        <div class="modal_card-wrapper">
+                            <div class="slider middle">
+                                <div class="slides">
+                                    <input type="radio" name="r" id="r1">
+                                    <input type="radio" name="r" id="r2">
+                                    <input type="radio" name="r" id="r3">
+                                    <input type="radio" name="r" id="r4">
+                        
+                                    <div class="slide s1"><img src="./img/corp1.webp" alt=""></div>
+                                    <div class="slide"><img src="./img/corp2.webp" alt=""></div>
+                                    <div class="slide"><img src="./corp3.png" alt=""></div>
+                                    <div class="slide"><img src="./corp1bl.webp" alt=""></div>
+                                </div>
+                        
+                                <div class="navigation-top">
+                                    <label for="r1" class="bar"></label>
+                                    <label for="r2" class="bar"></label>
+                                    <label for="r3" class="bar"></label>
+                                    <label for="r4" class="bar"></label>
+                                    
+                                </div>
+                        
+                            </div>
+                            <div class="modal__wrapper">
+                                <div>
+                                    <h3 class="modal_name"></h3>
+                                    <p class="modal_info">
+                                        Держатель ножки табурета позволит надежно зафиксировать мебельные опоры. 
+                                        Универсальная квадратная форма подходит для любых моделей табуретов, материал 
+                                        обеспечивает долговечность и надежность конструкции. Предусмотрены 4 отверстия под винты. 
+                                        Угол наклона 10 градусов. Гайка м8 оцинкованная.
+                                    </p>
+                                    <span class="modal_price"></span>
+                                </div>
+                                <div class="modal_buttons">
+                                    <a href="https://www.ozon.ru/seller/gbii-655510/products/?miniapp=seller_655510&__rr=2&abt_att=1" class="modal_btn modal_btn_ghost">Купить в розницу</a>
+                                    <a href="#opt" class="modal_btn">Купить оптом</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card_product">
+                    <img src="./img/corp2.webp" alt="" class="card_img" width="500px">
+
+                    <div>
+                         <h3 class="card_name">Крепление для мебельных ножек без наклона</h3>
+                         <span class="card_price">250</span>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal_card">
+                        <img src="./img/close-large-fill.svg" alt="" class="modal_close">
+
+                        <img src="./img/corp2.webp" alt="" class="modal_img" width="250px">
+
+                        <div>
+                            <h3 class="modal_name"></h3>
+                            <p class="modal_info">
+                                Держатель ножки табурета позволит надежно зафиксировать мебельные опоры. 
+                                Универсальная квадратная форма подходит для любых моделей табуретов, материал 
+                                обеспечивает долговечность и надежность конструкции. Предусмотрены 4 отверстия под винты. 
+                                Угол наклона 10 градусов. Гайка м8 оцинкованная.
+                            </p>
+                            <span class="modal_price"></span>
+                        </div>
+                        <div class="modal_buttons">
+                            <a href="https://www.ozon.ru/seller/gbii-655510/products/?miniapp=seller_655510&__rr=2&abt_att=1"><button class="modal_btn modal_btn_ghost">Купить в розницу</button></a>
+                            <button class="modal_btn">Купить оптом</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card_product">
+                    <img src="./img/termo1.webp" alt="" class="card_img" width="500px">
+
+                    <div>
+                         <h3 class="card_name">Крепление для мебельных ножек без наклона</h3>
+                         <span class="card_price">250</span>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal_card">
+                        <img src="./img/close-large-fill.svg" alt="" class="modal_close">
+
+                        <img src="./img/termo1.webp" alt="" class="modal_img" width="250px">
+
+                        <div>
+                            <h3 class="modal_name"></h3>
+                            <p class="modal_info">
+                                Держатель ножки табурета позволит надежно зафиксировать мебельные опоры. 
+                                Универсальная квадратная форма подходит для любых моделей табуретов, материал 
+                                обеспечивает долговечность и надежность конструкции. Предусмотрены 4 отверстия под винты. 
+                                Угол наклона 10 градусов. Гайка м8 оцинкованная.
+                            </p>
+                            <span class="modal_price"></span>
+                        </div>
+                        <div class="modal_buttons">
+                            <a href="https://www.ozon.ru/seller/gbii-655510/products/?miniapp=seller_655510&__rr=2&abt_att=1"><button class="modal_btn modal_btn_ghost">Купить в розницу</button></a>
+                            <button class="modal_btn">Купить оптом</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card_product">
+                    <img src="./img/corp1bl.webp" alt="" class="card_img" width="500px">
+
+                    <div>
+                         <h3 class="card_name">Крепление для мебельных ножек без наклона</h3>
+                         <span class="card_price">250</span>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal_card">
+                        <img src="./img/close-large-fill.svg" alt="" class="modal_close">
+
+                        <img src="./img/corp1bl.webp" alt="" class="modal_img" width="250px">
+
+                        <div>
+                            <h3 class="modal_name"></h3>
+                            <p class="modal_info">
+                                Держатель ножки табурета позволит надежно зафиксировать мебельные опоры. 
+                                Универсальная квадратная форма подходит для любых моделей табуретов, материал 
+                                обеспечивает долговечность и надежность конструкции. Предусмотрены 4 отверстия под винты. 
+                                Угол наклона 10 градусов. Гайка м8 оцинкованная.
+                            </p>
+                            <span class="modal_price"></span>
+                        </div>
+                        <div class="modal_buttons">
+                            <a href="https://www.ozon.ru/seller/gbii-655510/products/?miniapp=seller_655510&__rr=2&abt_att=1"><button class="modal_btn modal_btn_ghost">Купить в розницу</button></a>
+                            <button class="modal_btn">Купить оптом</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card_product">
+                    <img src="./img/pram.webp" alt="" class="card_img" width="500px">
+
+                    <div>
+                         <h3 class="card_name">Крепление для мебельных ножек без наклона</h3>
+                         <span class="card_price">250</span>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal_card">
+                        <img src="./img/close-large-fill.svg" alt="" class="modal_close">
+
+                        <img src="./img/pram.webp" alt="" class="modal_img" width="250px">
+
+                        <div>
+                            <h3 class="modal_name"></h3>
+                            <p class="modal_info">
+                                Держатель ножки табурета позволит надежно зафиксировать мебельные опоры. 
+                                Универсальная квадратная форма подходит для любых моделей табуретов, материал 
+                                обеспечивает долговечность и надежность конструкции. Предусмотрены 4 отверстия под винты. 
+                                Угол наклона 10 градусов. Гайка м8 оцинкованная.
+                            </p>
+                            <span class="modal_price"></span>
+                        </div>
+                        <div class="modal_buttons">
+                            <a href="https://www.ozon.ru/seller/gbii-655510/products/?miniapp=seller_655510&__rr=2&abt_att=1"><button class="modal_btn modal_btn_ghost">Купить в розницу</button></a>
+                            <button class="modal_btn">Купить оптом</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card_product">
+                    <img src="./img/pram10gr.webp" alt="" class="card_img" width="500px">
+
+                    <div>
+                         <h3 class="card_name">Крепление для мебельных ножек без наклона</h3>
+                         <span class="card_price">250</span>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal_card">
+                        <img src="./img/close-large-fill.svg" alt="" class="modal_close">
+
+                        <img src="./img/pram10gr.webp" alt="" class="modal_img" width="250px">
+
+                        <div>
+                            <h3 class="modal_name"></h3>
+                            <p class="modal_info">
+                                Держатель ножки табурета позволит надежно зафиксировать мебельные опоры. 
+                                Универсальная квадратная форма подходит для любых моделей табуретов, материал 
+                                обеспечивает долговечность и надежность конструкции. Предусмотрены 4 отверстия под винты. 
+                                Угол наклона 10 градусов. Гайка м8 оцинкованная.
+                            </p>
+                            <span class="modal_price"></span>
+                        </div>
+                        <div class="modal_buttons">
+                            <a href="https://www.ozon.ru/seller/gbii-655510/products/?miniapp=seller_655510&__rr=2&abt_att=1"><button class="modal_btn modal_btn_ghost">Купить в розницу</button></a>
+                            <button class="modal_btn">Купить оптом</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+           
+    </section>
+
+    <section class="listen">
         <div class="section">
         <h1 id="skaz">О нас</h1>
-        <div class="line"></div>
-        <div class="text">
-        <p>Мы — команда профессионалов, специализирующаяся на литье изделий из пластика с использованием термопластавтоматов 
-            (ТПА) с объемом впрыска до 200 куб. см. Наша компания предлагает полный спектр услуг по производству пластиковых 
-            деталей для серийного производства. <br>
-
-            Мы принимаем заказы только от 1000 штук, что позволяет нам гарантировать высокое качество и эффективность на каждом 
-            этапе производства. Мы работаем как с пресс-формами заказчика, так и помогаем в разработке пресс-форм по образцам или 
-            3D-чертежам, обеспечивая индивидуальный подход к каждому проекту. <br>
-            
-            Наша команда обладает богатым опытом и высокой квалификацией, что позволяет нам успешно реализовывать проекты различной 
-            сложности. Мы стремимся к тому, чтобы удовлетворить потребности наших клиентов, предоставляя надежные и качественные 
-            решения.
-            
-            Мы принимаем оплату как наличными, так и безналичными расчетами с учетом НДС. 
-            
-            Если вы ищете надежного партнера для серийного производства пластиковых изделий, мы готовы предложить вам свои услуги и 
-            помочь в реализации ваших идей!</p>
-             
+        <div class="wrapper">
+          <div class="text">
+            <p>Мы — команда профессионалов, специализирующаяся на литье изделий из пластика с использованием термопластавтоматов 
+              (ТПА) с объемом впрыска до 200 куб. см. Наша компания предлагает полный спектр услуг по производству пластиковых 
+              деталей для серийного производства. <br>
+  
+              Мы принимаем заказы только от 1000 штук, что позволяет нам гарантировать высокое качество и эффективность на каждом 
+              этапе производства. Мы работаем как с пресс-формами заказчика, так и помогаем в разработке пресс-форм по образцам или 
+              3D-чертежам, обеспечивая индивидуальный подход к каждому проекту. <br>
+              
+              Наша команда обладает богатым опытом и высокой квалификацией, что позволяет нам успешно реализовывать проекты различной 
+              сложности. Мы стремимся к тому, чтобы удовлетворить потребности наших клиентов, предоставляя надежные и качественные 
+              решения.
+              
+              Мы принимаем оплату как наличными, так и безналичными расчетами с учетом НДС. 
+              
+              Если вы ищете надежного партнера для серийного производства пластиковых изделий, мы готовы предложить вам свои услуги и 
+              помочь в реализации ваших идей!</p>             
+          </div>
+          <div class="scaz-img">
+            <div class="sketchfab-embed-wrapper"> 
+                <iframe title="Крепление гайка 2" frameborder="0" allowfullscreen mozallowfullscreen="true" 
+                webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" 
+                xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share 
+                src="https://sketchfab.com/models/a4391c4d365248819d86ce3c7b6b0a58/embed" width="1000px"> </iframe> 
+                <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> 
+                    <a href="https://sketchfab.com/3d-models/2-a4391c4d365248819d86ce3c7b6b0a58?utm_medium=embed&utm_campaign=share-popup&utm_content=a4391c4d365248819d86ce3c7b6b0a58" 
+                    target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Крепление гайка 2 </a> by 
+                    <a href="https://sketchfab.com/son53?utm_medium=embed&utm_campaign=share-popup&utm_content=a4391c4d365248819d86ce3c7b6b0a58" 
+                    target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> E-TECH </a> on <a 
+                    href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=a4391c4d365248819d86ce3c7b6b0a58" 
+                    target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
             </div>
+          </div>
         </div>
-        <hr width="800px">
+        </div>
+        <hr width="640px" class="hr">
     </section>
-    <section>
+    <section class="form-bar">
         <div class="form">
-            <img src="./img/render.png" alt="" class="render" height="550px">
+            <img src="./img/i.webp" alt="" class="render" height="550px">
             
             <div class="main-form">
+                
+            <form action="https://api.web3forms.com/submit" method="POST">
+                
+                    <input type="hidden" name="access_key" value="5eb7e008-2076-474b-92d5-c80079461d7a">
+
                 <h1 id="opt">Для оптового заказа</h1>
-                <p>отправьте нам свои данные, и мы свяжемся с вами в ближайшее время</p>
-                <input type="text" placeholder="Ваше имя">
-                <input type="text" placeholder="Ваш E-mail">
-                <input type="text" placeholder="Текст" class="input-text">
+                <p class="opt-p">отправьте нам свои данные, и мы свяжемся с вами в ближайшее время</p>
+                <div class="input-menu">
+                <span>Ваше ФИО</span>
+                <input type="text" placeholder="Ваше имя" required  autocomplete="off">
+
+                <span>Ваш e-mail</span>
+                <input type="email" placeholder="Ваш E-mail" required  autocomplete="off">
+
+                <span>Сообщение</span>
+                <input type="text" placeholder="Введите текст" class="input-text" required  autocomplete="off">
                 <button class="form-btn">Отправить</button>
+                </div>
                 <p>Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</p>
+
+            </form>
             </div>
         </div>
     </section>
+    <section class="delivery">
+        <div class="delivery-text">
+        <h2 class="delivery-name">Способы доставки:</h2>
+
+            <p class="del-p">Доставка и самовывоз заказов осуществляется после оплаты, если иное не согласовано в договоре</p>
+            <p class="punkt">1. Доставка транспортными компаниями в регионы России
+                По умолчанию СДЭК.
+                Другие ТК по предварительному согласованию с менеджером.
+                Укажите ваш город доставки, адрес доставки в вашем городе и контактное лицо получателя.</p>
+                <p class="punkt">2. Самовывоз со склада:
+                    606104, Нижегородская область, Павловский район, город Павлово, ул. Аллея Ильича, д.5а
+                    Получение заказов с понедельника по пятницу с 8.00 до 17:00</p>
+        </div>
+
+        <div class="card-company">
+            <img src="./img/card-prod.png" alt="" width="600px">
+        </div>
+        
+    </section>
+    <hr width="640px" class="hr">
     <nav>
         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab3462f685e055ef4e2ca4bc0388fd22150daa35c0ef6bc41438ac2407aebd6d4&amp;source=constructor"
          width="100%" height="550" frameborder="0"></iframe>
@@ -155,9 +405,10 @@
                     <li><a href="#opt">Купить оптом</a></li>
                 </ul>
             </div>
+            <div class="foot-cont-adapt">
             <div class="foot-contacs">
         <p>Нижегородская область, г. Павлово, ул. Аллея Ильича, дом 5 А</p>
-            <p>Адрес электронной почты infogbii@yandex.ru
+            <p>Адрес электронной почты: infogbii@yandex.ru
             </p>
             <p>Телефон +7 920 050 05 10</p>
             </div>
@@ -169,9 +420,11 @@
             </div>
             </div>
             </div>
+            </div>
     </footer>
     <script src="chatbot/chatbot.js"></script>
     <script src="anlak.js"></script>
     <script src="script.js"></script>
+    <script src="burger.js"></script>
 </body>
 </html>

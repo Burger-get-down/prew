@@ -19,6 +19,12 @@
   transition: background-color 0.15s ease-in-out;
 }
 
+@media screen and (max-width: 380px) {
+  .chatbot__btn {
+    right: 13px;
+  }
+}
+
 .chatbot__btn::before {
   content: '';
   position: absolute;
